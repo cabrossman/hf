@@ -13,3 +13,6 @@ raw_datasets = load_dataset("glue", "mrpc")
 This command downloads and caches the dataset, by default in ~/.cache/huggingface/dataset.
 
 raw_train_dataset.features
+
+1. Use Dataset.map(ftn) to get max performance
+2. for dynamic padding use to_tf_dataset function of tokenized dataset
