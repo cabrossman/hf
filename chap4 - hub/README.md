@@ -1,0 +1,2 @@
+## Hub
+- We recommend using the task selector in the Hugging Face Hub interface in order to select the appropriate checkpoints: fill-mastk, question-answering, text classification, text generation, etc
