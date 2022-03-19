@@ -135,3 +135,4 @@ dmypy.json
 *json.gz
 *.zip
 *.tsv
+*.txt
