@@ -4,7 +4,7 @@ If a language model is not available in the language you are interested in, or i
 ## Fast Tokenizers
 The output of a tokenizer isn't a simple Python dictionary; what we get is actually a special BatchEncoding object. It's a subclass of a dictionary (which is why we were able to index into that result without any problem before), but with additional methods that are mostly used by fast tokenizers.
 
-Besides their parallelization capabilities, the key functionality of fast tokenizers is that they always keep track of the original span of texts the final tokens come from — a feature we call offset mapping. This in turn unlocks features like mapping each word to the tokens it generated or mapping each character of the original text to the token it’s inside, and vice versa.
+Besides their parallelization capabilities, the key functionality of fast tokenizers is that they always keep track of the original span of texts the final tokens come from — a feature we call offset mapping. This in turn unlocks features like mapping each word to the tokens it generated or mapping each character of the original text to the token its inside, and vice versa.
 
 ### FUNCTIONS
 `encoding.tokens()`
